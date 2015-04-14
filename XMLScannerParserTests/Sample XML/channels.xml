@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv xmlns:xx="http://www.w3.org/1999/xx" xmlns:yy="http://www.w3.org/1999/yy" xmlns="http://www.w3.org/1999/zz"
+    generator-info-name="nonametv" foo=
+        "bar bu">
+    <channel xx:id="3sat.de">HeyHo
+        <foo/>
+        <!--
+            Since this is a comment
+            I can use all sorts of reserved characters
+            like > < " and &
+            or write things like
+            <foo></bar>
+            but my document is still well-formed!
+        -->
+        <yy:display-name lang="de">3sat</yy:display-name>
+        <base-url><![CDATA[
+    Since this is a CDATA section
+    I can use all sorts of reserved characters
+    like > < " and &
+    or write things like
+    <foo></bar>
+    but my document is still well formed!
+]]>http://xmltv.spaetfruehstuecken.org/xmltv/
+        </base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/3sat.de.png"/>
+    </channel>
+    <channel id="hd.3sat.de">
+        <display-name lang="de">3sat HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.3sat.de.png"/>
+    </channel>
+    <channel id="english.aljazeera.net">
+        <display-name lang="de">Al Jazeera (English)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/english.aljazeera.net.png"/>
+    </channel>
+    <channel id="hd.anixehd.tv">
+        <display-name lang="de">ANIXE HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="sd.anixehd.tv">
+        <display-name lang="de">ANIXE SD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="br-alpha.daserste.de">
+        <display-name lang="de">ARD-alpha</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="arte.de">
+        <display-name lang="de">ARTE</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/arte.de.png"/>
+    </channel>
+    <channel id="hd.arte.de">
+        <display-name lang="de">ARTE HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.arte.de.png"/>
+    </channel>
+    <channel id="bfs.daserste.de">
+        <display-name lang="de">BFS</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="comedycentral.de">
+        <display-name lang="de">Comedy Central Germany</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/comedycentral.de.png"/>
+    </channel>
+    <channel id="coretime.fm">
+        <display-name lang="de">CoreTime.FM</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/coretime.fm.png"/>
+    </channel>
+    <channel id="dasding.swr.de">
+        <display-name lang="de">Das Ding</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/dasding.swr.de.png"/>
+    </channel>
+    <channel id="daserste.de">
+        <display-name lang="de">Das Erste</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/daserste.de.png"/>
+    </channel>
+    <channel id="hd.daserste.de">
+        <display-name lang="de">Das Erste HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.daserste.de.png"/>
+    </channel>
+    <channel id="dlf.dradio.de">
+        <display-name lang="de">Deutschlandfunk</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/dlf.dradio.de.png"/>
+    </channel>
+    <channel id="dkultur.dradio.de">
+        <display-name lang="de">Deutschlandradio Kultur</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/dkultur.dradio.de.png"/>
+    </channel>
+    <channel id="wissen.dradio.de">
+        <display-name lang="de">Deutschlandradio Wissen</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/wissen.dradio.de.png"/>
+    </channel>
+    <channel id="dw.de">
+        <display-name lang="de">DW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/dw.de.png"/>
+    </channel>
+    <channel id="amerika.dw.de">
+        <display-name lang="de">DW (Amerika)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/amerika.dw.de.png"/>
+    </channel>
+    <channel id="arabia.dw.de">
+        <display-name lang="de">DW (Arabia)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/arabia.dw.de.png"/>
+    </channel>
+    <channel id="asien.dw.de">
+        <display-name lang="de">DW (Asien)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/asien.dw.de.png"/>
+    </channel>
+    <channel id="europe.dw.de">
+        <display-name lang="de">DW (Europe)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/europe.dw.de.png"/>
+    </channel>
+    <channel id="la.dw.de">
+        <display-name lang="de">DW (Latinoamérica)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/la.dw.de.png"/>
+    </channel>
+    <channel id="einsextra.daserste.de">
+        <display-name lang="de">EinsExtra</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="einsfestival.daserste.de">
+        <display-name lang="de">EinsFestival</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="einsplus.ard.de">
+        <display-name lang="de">EinsPlus</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/einsplus.ard.de.png"/>
+    </channel>
+    <channel id="einsplus.daserste.de">
+        <display-name lang="de">EinsPlus</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="en.france24.com">
+        <display-name lang="de">France 24 (English)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/en.france24.com.png"/>
+    </channel>
+    <channel id="fr.france24.com">
+        <display-name lang="de">France 24 (Français)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/fr.france24.com.png"/>
+    </channel>
+    <channel id="hardbase.fm">
+        <display-name lang="de">HardBase.FM</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hardbase.fm.png"/>
+    </channel>
+    <channel id="housetime.fm">
+        <display-name lang="de">HouseTime.FM</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/housetime.fm.png"/>
+    </channel>
+    <channel id="hr.daserste.de">
+        <display-name lang="de">hr-fernsehen</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="kika.de">
+        <display-name lang="de">KI.KA</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/kika.de.png"/>
+    </channel>
+    <channel id="mdr.daserste.de">
+        <display-name lang="de">MDR</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="ndr.daserste.de">
+        <display-name lang="de">NDR</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="neokika.zdfmobil.de">
+        <display-name lang="de">neo/KiKa</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/neokika.zdfmobil.de.png"/>
+    </channel>
+    <channel id="nickcc.mtvnetworks.de">
+        <display-name lang="de">Nickelodeon / Comedy Central (Germany)</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/nickcc.mtvnetworks.de.png"/>
+    </channel>
+    <channel id="nick.de">
+        <display-name lang="de">Nickelodeon Germany</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/nick.de.png"/>
+    </channel>
+    <channel id="nick.ch">
+        <display-name lang="de">Nickelodeon Switzerland</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/nick.ch.png"/>
+    </channel>
+    <channel id="orf2.orf.at">
+        <display-name lang="de">ORF 2</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/orf2.orf.at.png"/>
+    </channel>
+    <channel id="europe.orf2.orf.at">
+        <display-name lang="de">ORF 2 Europe</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="hd.orf2.orf.at">
+        <display-name lang="de">ORF 2 HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.orf2.orf.at.png"/>
+    </channel>
+    <channel id="orf3.orf.at">
+        <display-name lang="de">ORF III</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/orf3.orf.at.png"/>
+    </channel>
+    <channel id="sportplus.orf.at">
+        <display-name lang="de">ORF Sport Plus</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/sportplus.orf.at.png"/>
+    </channel>
+    <channel id="orf1.orf.at">
+        <display-name lang="de">ORFeins</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/orf1.orf.at.png"/>
+    </channel>
+    <channel id="hd.orf1.orf.at">
+        <display-name lang="de">ORFeins HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.orf1.orf.at.png"/>
+    </channel>
+    <channel id="phoenix.daserste.de">
+        <display-name lang="de">Phoenix</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="radioseven.se">
+        <display-name lang="de">radioseven.se</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/radioseven.se.png"/>
+    </channel>
+    <channel id="radiox.de">
+        <display-name lang="de">RadioX</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/radiox.de.png"/>
+    </channel>
+    <channel id="rbb.daserste.de">
+        <display-name lang="de">RBB</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="berl.rbb-online.de">
+        <display-name lang="de">RBB Berlin</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="bra.rbb-online.de">
+        <display-name lang="de">RBB Brandenburg</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="sr.swr.de">
+        <display-name lang="de">SR Fernsehen</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="hd.sr.swr.de">
+        <display-name lang="de">SR Fernsehen HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="bw.swr1.swr.de">
+        <display-name lang="de">SWR 1 BW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/bw.swr1.swr.de.png"/>
+    </channel>
+    <channel id="rp.swr1.swr.de">
+        <display-name lang="de">SWR 1 RP</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/rp.swr1.swr.de.png"/>
+    </channel>
+    <channel id="bw.swr2.swr.de">
+        <display-name lang="de">SWR 2 BW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/bw.swr2.swr.de.png"/>
+    </channel>
+    <channel id="rp.swr2.swr.de">
+        <display-name lang="de">SWR 2 RP</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/rp.swr2.swr.de.png"/>
+    </channel>
+    <channel id="swr3.de">
+        <display-name lang="de">SWR 3</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/swr3.de.png"/>
+    </channel>
+    <channel id="bw.swr4.swr.de">
+        <display-name lang="de">SWR 4 BW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/bw.swr4.swr.de.png"/>
+    </channel>
+    <channel id="rp.swr4.swr.de">
+        <display-name lang="de">SWR 4 RP</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/rp.swr4.swr.de.png"/>
+    </channel>
+    <channel id="bw.swr.daserste.de">
+        <display-name lang="de">SWR BW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="bw.swr.de">
+        <display-name lang="de">SWR Fernsehen BW</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="hd.bw.swr.de">
+        <display-name lang="de">SWR Fernsehen BW HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="rp.swr.de">
+        <display-name lang="de">SWR Fernsehen RP</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="hd.rp.swr.de">
+        <display-name lang="de">SWR Fernsehen RP HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="rp.swr.daserste.de">
+        <display-name lang="de">SWR RP</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="sr.swr.daserste.de">
+        <display-name lang="de">SWR SR</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="info.swr.de">
+        <display-name lang="de">SWRinfo</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/info.swr.de.png"/>
+    </channel>
+    <channel id="technobase.fm">
+        <display-name lang="de">TechnoBase.FM</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/technobase.fm.png"/>
+    </channel>
+    <channel id="tele5.de">
+        <display-name lang="de">Tele5</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/tele5.de.png"/>
+    </channel>
+    <channel id="hd.tele5.de">
+        <display-name lang="de">Tele5 HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.tele5.de.png"/>
+    </channel>
+    <channel id="trancebase.fm">
+        <display-name lang="de">TranceBase.FM</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/trancebase.fm.png"/>
+    </channel>
+    <channel id="wdr.daserste.de">
+        <display-name lang="de">WDR</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+    </channel>
+    <channel id="zdf.de">
+        <display-name lang="de">ZDF</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/zdf.de.png"/>
+    </channel>
+    <channel id="hd.zdf.de">
+        <display-name lang="de">ZDF HD</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/hd.zdf.de.png"/>
+    </channel>
+    <channel id="infokanal.zdf.de">
+        <display-name lang="de">ZDFinfokanal</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/infokanal.zdf.de.png"/>
+    </channel>
+    <channel id="kultur.zdf.de">
+        <display-name lang="de">ZDFkultur</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/kultur.zdf.de.png"/>
+    </channel>
+    <channel id="neo.zdf.de">
+        <display-name lang="de">ZDFneo</display-name>
+        <base-url>http://xmltv.spaetfruehstuecken.org/xmltv/</base-url>
+        <icon src="http://xmltv.spaetfruehstuecken.org/chanlogos/neo.zdf.de.png"/>
+    </channel>
+</tv>
